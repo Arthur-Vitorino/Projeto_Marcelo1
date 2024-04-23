@@ -17,8 +17,8 @@ int main(){
 	FILE *arquivo2;
 	struct Dados X;
 	
-	arquivo1 = fopen("DadosEntrada.cvs", "r");  // arquivo para leitura (r)
-	arquivo2 = fopen("SituacaoFinal.cvs", "w");
+	arquivo1 = fopen("DadosEntrada.csv", "r");  // arquivo para leitura (r)
+	arquivo2 = fopen("SituacaoFinal.csv", "w");
 	
 	if (arquivo1 == NULL || arquivo2 == NULL){
 		printf("Erro ao Abrir");
